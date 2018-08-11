@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a18mas.mp3front.UI.MainActivity"
+
+    >
+
+    <item
+
+        android:id="@+id/action_settings"
+        android:orderInCategory="20"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="10"
+        android:title="@string/action_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_back"
+        android:orderInCategory="0"
+        android:title="@string/action_back"
+        app:showAsAction="never" />
+
+
+    <!--android:icon="@drawable/ic_search"
+      app:showAsAction="ifRoom|collapseActionView"-->
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_search_method"
+        android:title="Search method">
+        <!-- "Search" submenu -->
+        <menu>
+            <item
+                android:id="@+id/by_artist"
+                android:title="by Artist" />
+            <item
+                android:id="@+id/by_title"
+                android:title="by Title" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_download"
+        android:title="Download"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_check_all"
+        android:title="Un/Check"
+        app:showAsAction="never" />
+
+
+    <!-- spinner -->
+    <!--  <itema
+         android:id="@+id/action_search_spinner"
+         app:actionLayout="@layout/spinner_menu"
+         app:showAsAction="always"
+         android:title="togglr" />
+         -->
+
+    <!--
+        <item
+            android:checkable="true"
+            app:actionLayout="@layout/toggle_menu"
+            app:showAsAction="always"
+            android:title="togglr" />
+    -->
+
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mp3Front</string>
+    <string name="action_settings">Settings</string>
+    <string name="channel_title"><u><b><i>Copyright</i></b></u></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_home">Home</string>
+    <string name="action_back">Back</string>
+    <string name="action_search">search</string>
+
+
+
+    <string-array name="move_vert_arrays">
+        <item></item>
+        <item>Download</item>
+        <item>About</item>
+
+    </string-array>
+
+    <!-- search by... -->
+    <string-array name="bar_spinner_search">
+        <item></item>
+        <item>Artist</item>
+        <item>Title</item>
+
+    </string-array>
+</resources>
