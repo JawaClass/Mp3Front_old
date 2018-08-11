@@ -1,6 +1,4 @@
 # Mp3Front
 Front-End for Android
 
-APK-File:
-
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"app-debug.apk","fullName":"debug","baseName":"debug"},"path":"app-debug.apk","properties":{}}]
+*APK-File see above*
